@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+  email: string | undefined;
+  password: string | undefined;
 
+  constructor() {}
+
+  login() {
+    console.log(this.email);
+    console.log(this.password);
+  }
 }

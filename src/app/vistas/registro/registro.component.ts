@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class RegistroComponent {
 
+  email: string | undefined;
+  password: string | undefined;
+  confirmarPassword: string | undefined;
+
+  constructor() {}
+
+  register() {
+    console.log(this.email);
+    console.log(this.password);
+    console.log(this.confirmarPassword);
+  }
+
 }
